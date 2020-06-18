@@ -2,7 +2,7 @@
 
 ## Directions
 
-Your project for today and tomorrow is to build a single-page application that displays books using React. You should use `create-react-app` to create the application and build up from there.
+Your project is to build a single-page application that displays books using React. You should use `create-react-app` to create the application and build up from there.
 
 The finished product will look like the included wireframe. When the information for that book is clicked, the section expands to show additional information about the book. When it is clicked again, it should collapse back to the original view. This behavior is commonly referred to as an accordion, like [this component in Bootstrap](https://getbootstrap.com/docs/4.0/components/collapse/#accordion-example).
 
