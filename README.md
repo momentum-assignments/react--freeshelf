@@ -4,7 +4,7 @@
 
 Your project is to build a single-page application that displays books using React. You should use `create-react-app` to create the application and build up from there.
 
-The finished product will look like the included wireframe. When the information for that book is clicked, the section expands to show additional information about the book. When it is clicked again, it should collapse back to the original view. This behavior is commonly referred to as an accordion, like [this component in Bootstrap](https://getbootstrap.com/docs/4.0/components/collapse/#accordion-example).
+The finished product will look like the included wireframe. When the information for that book is clicked, the section expands to show additional information about the book. When it is clicked again, it should collapse back to the original view. This behavior is commonly referred to as a disclosure, as described in [this ARIA practices document with examples](https://www.w3.org/TR/wai-aria-practices-1.1/#disclosure).
 
 The page should display a list of books with a thumbnail display of information for each book, including:
 
@@ -15,7 +15,7 @@ The page should display a list of books with a thumbnail display of information 
 
 The additional information shown in the expanded view should include:
 
-+ url
++ URL
 + publisher
 + publication date
 + expanded description
@@ -31,3 +31,15 @@ import books from './books.json'
 ## Wireframe
 
 ![Wireframe](freeshelf-wireframe.png)
+
+## Rubric
+
+- *Completion*
+  - 1 (Unsatisfactory): does not show all information or does not show/hide information
+  - 2 (Satisfactory): meets all requirements under "Directions". Shows all books and shows/hides their extra information
+  - 3 (Exemplary): meets all requirements, is nicely styled, uses the `aria-expanded` attribute
+
+- *React Usage*
+  - 1 (Unsatisfactory): uses DOM manipulation or HTML directly to show and hide information
+  - 2 (Satisfactory): uses JSX, conditional rendering, and state to show and hide information
+  - 3 (Exemplary): breaks application into multiple components in a useful way
