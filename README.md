@@ -2,7 +2,7 @@
 
 ## Directions
 
-Your project is to build a single-page application that displays books using React. You should use `create-react-app .` (❗ notice the final dot in that command) to create the application in this repo, and build from there.
+Your project is to build a single-page application that displays books using React. You should use `npx create-react-app .` (❗ notice the final dot in that command) to create the application in this repo, and build from there.
 
 The finished product will look like the included wireframe. When the information for a book is clicked, the section expands to show additional information about the book. When it is clicked again, it should collapse back to the original view. This behavior is commonly referred to as a disclosure, as described in [this Web Accessibility (A11y) practices document with examples](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/). 
 
